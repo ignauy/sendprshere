@@ -1,6 +1,6 @@
 #!/bin/bash
 year=$(date +"%Y")
-cd sendprshere/
+cd sendprshere/ || exit
 for i in {1..5};
 do
   git checkout -b "$year-0$i.txt"
