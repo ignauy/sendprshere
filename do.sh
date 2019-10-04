@@ -8,5 +8,5 @@ do
   git add .
   git commit -m "$year-0$i.txt"
   git checkout master
-  git push --origin --set-upstream "$year-0$i.txt"
+  git push --set-upstream origin "$year-0$i.txt"
 done
